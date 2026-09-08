@@ -1,0 +1,44 @@
+text,category
+"Water tap leaking in hostel washroom",Hostel
+"Hostel room fan is not working",Hostel
+"Mess food was cold today",Hostel
+"Hostel WiFi is not working",Hostel
+"Water supply is not available in hostel",Hostel
+"Hostel room cleaning is not done",Hostel
+"Room door lock is broken in hostel",Hostel
+"Hot water is not available in hostel",Hostel
+"Hostel bathroom is dirty",Hostel
+"Ceiling fan in hostel is making noise",Hostel
+
+"Projector in laboratory is not working",Maintenance
+"Fan in classroom is not working",Maintenance
+"AC in the library is not cooling",Maintenance
+"Light in classroom is broken",Maintenance
+"Computer in lab is not turning on",Maintenance
+"Water leakage in college building",Maintenance
+"Electrical switch is damaged",Maintenance
+"Classroom bench is broken",Maintenance
+"College lift is not working",Maintenance
+"Laboratory equipment is damaged",Maintenance
+
+"My semester fee payment failed",Accounts
+"Money was deducted twice for my college fee",Accounts
+"My fee receipt is not generated",Accounts
+"I have a problem with my scholarship payment",Accounts
+"Scholarship amount has not been received",Accounts
+"My fee payment is showing pending",Accounts
+"Wrong amount is shown in my fee account",Accounts
+"I need a duplicate fee receipt",Accounts
+"Fee refund has not been received",Accounts
+"Payment was successful but portal shows unpaid",Accounts
+
+"My exam hall ticket has incorrect name",Academics
+"My marks are incorrect in the result",Academics
+"Marks for one subject are missing",Academics
+"My internal marks are not updated",Academics
+"The syllabus is not updated",Academics
+"I have a problem with my examination schedule",Academics
+"My attendance is incorrect",Academics
+"Subject registration is not working",Academics
+"My semester result has an error",Academics
+"I cannot download my examination form",Academics

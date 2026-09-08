@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>College Grievance Portal</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: #1e3a8a;
+            color: white;
+            padding: 20px 50px;
+        }
+
+        .header h1 {
+            font-size: 26px;
+        }
+
+        .header p {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .card h2 {
+            color: #1e3a8a;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: #1e3a8a;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #172e6b;
+        }
+
+        .info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #eef4ff;
+            border-radius: 6px;
+            color: #444;
+            font-size: 14px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="header">
+
+        <h1>College Grievance Redressal System</h1>
+
+        <p>AI-powered student complaint management portal</p>
+
+    </div>
+
+
+    <div class="container">
+
+        <div class="card">
+
+            <h2>Submit a Grievance</h2>
+
+            <p class="description">
+                Please describe your problem clearly. 
+                Our system will analyze your complaint and route it
+                to the appropriate department.
+            </p>
+
+
+            <form action="/submit" method="POST">
+
+                <label for="student_name">
+                    Student Name
+                </label>
+
+                <input
+                    type="text"
+                    id="student_name"
+                    name="student_name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label for="student_email">
+                    Student Email
+                </label>
+
+                <input
+                    type="email"
+                    id="student_email"
+                    name="student_email"
+                    placeholder="Enter your college email"
+                    required
+                >
+
+
+                <label for="complaint_text">
+                    Describe Your Complaint
+                </label>
+
+                <textarea
+                    id="complaint_text"
+                    name="complaint_text"
+                    rows="7"
+                    placeholder="Example: The fan in my hostel room is not working..."
+                    required
+                ></textarea>
+
+
+                <button type="submit">
+                    Submit Grievance
+                </button>
+
+            </form>
+
+
+            <div class="info">
+
+                <strong>How it works:</strong>
+
+                <br><br>
+
+                Your complaint will be analyzed by our AI system
+                and routed to the appropriate college department.
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
